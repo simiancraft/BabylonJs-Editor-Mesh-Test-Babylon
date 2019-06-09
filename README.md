@@ -1,12 +1,15 @@
 # BabylonJs-Editor-Mesh-Test-Babylon
 A repo to capture the work done from testing the importation of a .babylon file into the editor
 
+
 **Test 1: Babylon File**
 -----
 Expected Dude.babylon:
+
 ![image|684x288,75%](https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard10/uploads/babylonjs/original/2X/d/d89a5a3297c4014aaf9e67e9a20b0113f1bb8cfc.jpeg) 
 
 (clearing/ new scene in between each action)
+
 
 Importing
 ---
@@ -14,9 +17,12 @@ Importing
 
 ![image|690x294,75%](https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard10/uploads/babylonjs/original/2X/5/590abdf3ce2eb23c1c82ef4a62a8c2c42943b313.png)  
 
+
 It's not immediately obvious that the textures needed to be added separately. Some other filetypes don't require this. You can drag the textures in later, and clicking the refresh on the Materials Viewer will update the materials, but the scene will be out of sync. there's not really a way to 'refresh' the scene here, so it looks wrong unless you know what is happening.
 
+
 ![image|552x500,75%](https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard10/uploads/babylonjs/original/2X/8/81043c18176a05d84f4c325310314937e136dd96.png) 
+
 
 **2. Second Action: Drag all files in simultaneously:**
 
